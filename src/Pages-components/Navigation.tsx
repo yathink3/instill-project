@@ -17,20 +17,17 @@ function Navigation() {
                 </span>
               </a>
             </div>
-
             <div className='mt-4'>
               <ul>
                 <NavItem iconType='frame-dash' selectedKey={selectedKey} onSelect={setSelectedkey} />
               </ul>
             </div>
-
             <div className='mt-10'>
               <ul>
                 <NavItem iconType='line-chart' selectedKey={selectedKey} onSelect={setSelectedkey} />
                 <NavItem iconType='pie-chart' selectedKey={selectedKey} onSelect={setSelectedkey} />
               </ul>
             </div>
-
             <div className='mt-10'>
               <ul>
                 <NavItem iconType='one-wave' selectedKey={selectedKey} onSelect={setSelectedkey} />
@@ -38,7 +35,6 @@ function Navigation() {
                 <NavItem iconType='brief-case' selectedKey={selectedKey} onSelect={setSelectedkey} />
               </ul>
             </div>
-
             <div className='mt-10'>
               <ul>
                 <NavItem iconType='bulb' selectedKey={selectedKey} onSelect={setSelectedkey} />
