@@ -1,15 +1,15 @@
 import { cn } from '@/lib/utils';
 
-import { ReactComponent as XFrameDashIcon } from '../assets/x-base-one-line-frame-dash.svg';
-import { ReactComponent as XLineChartIcon } from '../assets/x-base-one-line-icon.svg';
-import { ReactComponent as XPieChartIcon } from '../assets/x-base-one-line-chart-pie.svg';
-import { ReactComponent as XOneWaveIcon } from '../assets/x-base-one-wave-icon.svg';
-import { ReactComponent as XPeopleIcon } from '../assets/x-base-one-line-people.svg';
-import { ReactComponent as XBriefCaseIcon } from '../assets/x-base-one-line-line-rounded-briefcase.svg';
-import { ReactComponent as XBulbIcon } from '../assets/x-base-one-line-light-bulb.svg';
-import { ReactComponent as XInstillIcon } from '../assets/x-base-one-line-instill-icon.svg';
-import { ReactComponent as XUserIcon } from '../assets/x-base-one-line-user.svg';
-import { ReactComponent as XBellIcon } from '../assets/x-base-one-line-bell.svg';
+import { ReactComponent as XFrameDashIcon } from '@/assets/x-base-one-line-frame-dash.svg';
+import { ReactComponent as XLineChartIcon } from '@/assets/x-base-one-line-icon.svg';
+import { ReactComponent as XPieChartIcon } from '@/assets/x-base-one-line-chart-pie.svg';
+import { ReactComponent as XOneWaveIcon } from '@/assets/x-base-one-wave-icon.svg';
+import { ReactComponent as XPeopleIcon } from '@/assets/x-base-one-line-people.svg';
+import { ReactComponent as XBriefCaseIcon } from '@/assets/x-base-one-line-line-rounded-briefcase.svg';
+import { ReactComponent as XBulbIcon } from '@/assets/x-base-one-line-light-bulb.svg';
+import { ReactComponent as XInstillIcon } from '@/assets/x-base-one-line-instill-icon.svg';
+import { ReactComponent as XUserIcon } from '@/assets/x-base-one-line-user.svg';
+import { ReactComponent as XBellIcon } from '@/assets/x-base-one-line-bell.svg';
 
 const iconsObj = {
   'frame-dash': XFrameDashIcon,
