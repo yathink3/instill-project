@@ -52,4 +52,5 @@ function Navigation() {
   );
 }
 
+Navigation.displayName = 'Navigation';
 export default Navigation;
