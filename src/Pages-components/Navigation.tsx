@@ -1,6 +1,6 @@
 import NavItem from '@/components/ui/NavItem';
 import { type IconType } from '@/components/ui/NavItem';
-import InstillLogo from '../assets/instill-logo-1.png';
+import InstillLogo from '@/assets/instill-logo-1.png';
 import { useState } from 'react';
 
 function Navigation() {
