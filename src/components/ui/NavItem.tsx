@@ -46,4 +46,6 @@ function NavItem({ iconType, selectedKey, url = '', onSelect }: NavItemProps) {
   );
 }
 
+NavItem.displayName = 'NavItem';
+
 export default NavItem;
