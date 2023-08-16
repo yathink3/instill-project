@@ -1,4 +1,4 @@
-import SearchBar from '@/components/ui/SearchBar';
+import SearchBar from '@/components/ui/search-bar';
 
 function TopBar() {
   return (
