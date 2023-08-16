@@ -8,7 +8,7 @@ import HalfCircleCount from '@/components/ui/half-circle-count';
 function MainPage() {
   return (
     <div>
-      <div className='mx-2 md:mx-20 overflow-y-scroll'>
+      <div className='mx-2 md:mx-20'>
         <div className='flex items-center  mt-8 mb-5'>
           <div className='border-2 border-gray-300 bg-white rounded-full w-[50px] h-[50px] flex justify-center items-center shadow-md'>
             <img src={AppleIcon} />
@@ -29,35 +29,35 @@ function MainPage() {
             <CardTitle className='text-3xl'>Culture Vital signs</CardTitle>
           </CardHeader>
           <CardContent className='flex flex-wrap justify-between'>
-            <div className='m-1 rounded-lg w-[200px] h-[240px] bg-[#FAFAFA] p-2'>
+            <div className='m-1 rounded-lg w-[200px] h-[240px] bg-[#FAFAFA] p-3'>
               <h3 className='text-lg font-medium'>Inclusion</h3>
               <div className='my-5 mx-3 w-[150px] flex flex-col justify-center items-center'>
                 <CircularPercentage percentage={25} />
                 <h3 className='text-[#FF3B6B]'>↓ 25%</h3>
               </div>
             </div>
-            <div className='m-1 rounded-lg w-[200px] h-[240px] bg-[#FAFAFA] p-2'>
+            <div className='m-1 rounded-lg w-[200px] h-[240px] bg-[#FAFAFA] p-3'>
               <h3 className='text-lg font-medium'>Trust</h3>
               <div className='my-5 mx-3 w-[150px] flex flex-col justify-center items-center'>
                 <CircularPercentage percentage={85} />
                 <h3 className='text-[#6ED29C]'>↑ 15%</h3>
               </div>
             </div>
-            <div className='m-1 rounded-lg w-[200px] h-[240px] bg-[#FAFAFA] p-2'>
+            <div className='m-1 rounded-lg w-[200px] h-[240px] bg-[#FAFAFA] p-3'>
               <h3 className='text-lg font-medium'>Psychological Safety</h3>
               <div className='my-5 mx-3 w-[150px] flex flex-col justify-center items-center'>
                 <CircularPercentage percentage={60} />
                 <h3 className='text-[#6ED29C]'>↑ 5%</h3>
               </div>
             </div>
-            <div className='m-1 rounded-lg w-[200px] h-[240px] bg-[#FAFAFA] p-2'>
+            <div className='m-1 rounded-lg w-[200px] h-[240px] bg-[#FAFAFA] p-3'>
               <h3 className='text-lg font-medium'>Innovation</h3>
               <div className='my-5 mx-3 w-[150px] flex flex-col justify-center items-center'>
                 <CircularPercentage percentage={72} />
                 <h3 className='text-[#FF3B6B]'>↓ 22%</h3>
               </div>
             </div>
-            <div className='m-1 rounded-lg w-[200px] h-[240px] bg-[#FAFAFA] p-2'>
+            <div className='m-1 rounded-lg w-[200px] h-[240px] bg-[#FAFAFA] p-3'>
               <h3 className='text-lg font-medium'>Burnout</h3>
               <div className='my-5 mx-3 w-[150px] flex flex-col justify-center items-center'>
                 <CircularPercentage percentage={38} />
@@ -67,8 +67,8 @@ function MainPage() {
           </CardContent>
         </Card>
       </div>
-      <div className='mx-1 md:mx-20 mt-5 flex flex-grow'>
-        <Card className='p-2 mt-2 mx-1 lg:w-[50%] shadow-md'>
+      <div className='mx-1 md:mx-20 mt-5 flex md:flex-grow'>
+        <Card className='p-2 mt-2 mx-1 md:w-[50%] shadow-md'>
           <CardHeader>
             <div className='rounded-lg  bg-gray-900 w-[50px] h-[50px] flex justify-center items-center shadow-md mb-2'>
               <img src={InstillIcon} />
@@ -76,7 +76,7 @@ function MainPage() {
             <CardTitle className='mt-4'>Instill Sense</CardTitle>
           </CardHeader>
           <CardContent className='flex flex-wrap'>
-            <div className='border border-gray-300 m-1 rounded-lg w-[600px] h-[100px] p-2 flex flex-wrap justify-between'>
+            <div className='border border-gray-300 m-1 rounded-lg md:w-[600px] md:h-[100px] p-2 flex flex-wrap justify-between'>
               <div className='w-[200px] flex flex-col justify-center p-3'>
                 <h3 className='font-medium'>Upcoming Meetings</h3>
                 <h1 className='text-4xl font-bold'>12</h1>
@@ -86,7 +86,7 @@ function MainPage() {
                 <h1 className='text-4xl font-bold'>03</h1>
               </div>
             </div>
-            <div className='border border-gray-300 m-1 rounded-lg w-[600px] h-[200px] p-2'>
+            <div className='border border-gray-300 m-1 rounded-lg md:w-[600px] md:h-[200px] p-2'>
               <h3 className='font-medium p-3'>Meetings Sentiments</h3>
               <div className='flex flex-wrap justify-around'>
                 <div className='m-1 w-[100px] h-[100px] p-2'>
@@ -111,14 +111,14 @@ function MainPage() {
             </div>
           </CardContent>
         </Card>
-        <Card className='p-2 mt-2 mx-1 lg:w-[50%] shadow-md'>
+        <Card className='p-2 mt-2 mx-1 md:w-[50%] shadow-md'>
           <CardHeader>
             <h2 className='text-base font-medium text-[#666666]'>THIS MONTH</h2>
             <CardTitle className='text-3xl'>Pulse Survey</CardTitle>
           </CardHeader>
           <CardContent className='flex flex-wrap'>
-            <div className='w-[600px] h-[200px] flex flex-wrap justify-between'>
-              <div className='border border-gray-300 m-1 rounded-lg w-[48%] flex flex-col justify-center p-2'>
+            <div className='md:w-[600px] md:h-[200px] flex flex-wrap justify-between'>
+              <div className='border border-gray-300 m-1 rounded-lg md:w-[48%] flex flex-col justify-center p-2'>
                 <h3 className='font-medium p-2'>eNPS Score</h3>
                 <div className='m-1 w-[250px] h-[100px] p-2 pt-0'>
                   <div className='my-1 w-[180px] flex flex-col justify-center items-center'>
@@ -127,7 +127,7 @@ function MainPage() {
                   </div>
                 </div>
               </div>
-              <div className='border border-gray-300 m-1 rounded-lg w-[48%] flex flex-col justify-center p-2'>
+              <div className='border border-gray-300 m-1 rounded-lg md:w-[48%] flex flex-col justify-center p-2'>
                 <h3 className='font-medium p-2'>Support from Manager</h3>
                 <div className='m-1 w-[250px] h-[100px] p-2 pt-0'>
                   <div className='my-1 w-[180px] flex flex-col justify-center items-center'>

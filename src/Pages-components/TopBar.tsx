@@ -4,7 +4,7 @@ function TopBar() {
   return (
     <>
       <div className='flex-1 flex flex-col'>
-        <div className='px-2 md:px-20 py-2 flex justify-between bg-white h-18 border-b-2'>
+        <div className='px-2 md:px-20 py-2 flex justify-between bg-white h-20 border-b-2'>
           <div className='flex items-center'>
             <SearchBar />
           </div>
