@@ -1,7 +1,7 @@
 import './App.css';
 import Navigation from './Pages-components/Navigation';
 import TopBar from './Pages-components/TopBar';
-import { Card, CardHeader, CardFooter, CardTitle, CardDescription, CardContent } from '@/components/ui/card';
+import { Card, CardHeader, CardTitle, CardContent } from '@/components/ui/card';
 
 import { ReactComponent as AppleIcon } from '@/assets/apple-logo-black-11.svg';
 import CircularPercentage from './components/ui/circular-percentage';
@@ -38,7 +38,7 @@ function App() {
                 <div className='m-1 rounded-lg w-[200px] h-[240px] bg-[#FAFAFA] p-2'>
                   <h3 className='text-lg font-medium'>Inclusion</h3>
                   <div className='my-5 mx-3 w-[150px] flex flex-col justify-center items-center'>
-                    <CircularPercentage percentage={25} color='green'/>
+                    <CircularPercentage percentage={25} color='green' />
                     <h3>↑ 25%</h3>
                   </div>
                 </div>
