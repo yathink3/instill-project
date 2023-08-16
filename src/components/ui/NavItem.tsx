@@ -40,7 +40,7 @@ function NavItem({ iconType, selectedKey, url = '', onSelect }: NavItemProps) {
   return (
     <li className={cn('mt-2 mb-2 w-12 h-8 p-1 mx-auto', selected && 'rounded-lg  bg-gray-900')} onClick={() => onSelect?.(iconType)}>
       <a href={url || '#'}>
-        <span className=''>{Icon ? <Icon className={cn('w-6 mb-3 mx-auto', selected && 'fill-cyan-500')} /> : null}</span>
+        <span className=''>{Icon ? <Icon className={cn('w-6 mb-3 mx-auto', selected && 'sel-icon -fill-[#3AD0F8]')} /> : null}</span>
       </a>
     </li>
   );
