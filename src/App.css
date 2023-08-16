@@ -1,3 +1,19 @@
 .sel-icon path {
-    stroke: #3AD0F8;
+  stroke: #3AD0F8;
+}
+
+.circle {
+  stroke-linecap: round;
+}
+
+.percentage {
+  font-family: sans-serif;
+  font-size: 0.7em;
+  text-anchor: middle;
+}
+
+.percentage-symbol {
+  font-family: sans-serif;
+  font-size: 0.3em;
+  text-anchor: middle;
 }

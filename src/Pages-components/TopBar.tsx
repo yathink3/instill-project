@@ -9,7 +9,7 @@ function TopBar() {
             <SearchBar />
           </div>
           <div className='flex items-center'>
-            <div className='pr-6'>Tim Cook</div>
+            <h2 className='font-medium pr-4'>Tim Cook</h2>
             <div className='h-10 w-10'>
               <div className='h-full w-full rounded-full mx-auto bg-gray-200'></div>
             </div>

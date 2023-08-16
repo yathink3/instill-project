@@ -6,7 +6,7 @@ import { useState } from 'react';
 function Navigation() {
   const [selectedKey, setSelectedkey] = useState<IconType | undefined>('frame-dash');
   return (
-    <nav className='w-20 flex flex-col bg-black'>
+    <nav className='w-20 flex flex-col bg-[#111]'>
       <div className=''>
         <div className='mt-5 mb-5'>
           <a href='#'>
