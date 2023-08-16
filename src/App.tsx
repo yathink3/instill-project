@@ -1,10 +1,9 @@
 import './App.css';
-import Navigation from './Pages-components/Navigation';
-import TopBar from './Pages-components/TopBar';
+import Navigation from '@/Pages-components/Navigation';
+import TopBar from '@/Pages-components/TopBar';
+import AppleIcon from '@/assets/apple-logo-black-11.svg';
 import { Card, CardHeader, CardTitle, CardContent } from '@/components/ui/card';
-
-import { ReactComponent as AppleIcon } from '@/assets/apple-logo-black-11.svg';
-import CircularPercentage from './components/ui/circular-percentage';
+import CircularPercentage from '@/components/ui/circular-percentage';
 
 function App() {
   return (
@@ -17,7 +16,7 @@ function App() {
             <div className='mx-2 md:mx-20 overflow-y-scroll'>
               <div className='flex items-center  mt-8 mb-5'>
                 <div className='border-2 border-gray-300 bg-white rounded-full w-[50px] h-[50px] flex justify-center items-center'>
-                  <AppleIcon />
+                  <img src={AppleIcon} />
                 </div>
                 <h1 className='ml-4 font-bold'>APPLE CULTURE DASHBOARD</h1>
               </div>
