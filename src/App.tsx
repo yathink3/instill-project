@@ -2,6 +2,7 @@ import './App.css';
 import Navigation from '@/Pages-components/Navigation';
 import TopBar from '@/Pages-components/TopBar';
 import AppleIcon from '@/assets/apple-logo-black-11.svg';
+import InstillIcon from '@/assets/x-base-one-line-instill-icon.svg';
 import { Card, CardHeader, CardTitle, CardContent } from '@/components/ui/card';
 import CircularPercentage from '@/components/ui/circular-percentage';
 
@@ -12,10 +13,10 @@ function App() {
         <Navigation />
         <div className='text-[#333] bg-[#F5F7F9] h-screen w-screen'>
           <TopBar />
-          <div className='fixed left-20 top-20 bottom-2 right-0 overflow-y-scroll'>
+          <div className='fixed left-20 top-20 bottom-2 right-0 pb-2 overflow-y-scroll'>
             <div className='mx-2 md:mx-20 overflow-y-scroll'>
               <div className='flex items-center  mt-8 mb-5'>
-                <div className='border-2 border-gray-300 bg-white rounded-full w-[50px] h-[50px] flex justify-center items-center'>
+                <div className='border-2 border-gray-300 bg-white rounded-full w-[50px] h-[50px] flex justify-center items-center shadow-md'>
                   <img src={AppleIcon} />
                 </div>
                 <h1 className='ml-4 font-bold'>APPLE CULTURE DASHBOARD</h1>
@@ -28,10 +29,10 @@ function App() {
               </div>
             </div>
             <div className='mx-1 md:mx-20 mt-5'>
-              <Card className='p-2 mt-5 mx-1'>
+              <Card className='p-2 mt-5 mx-1 shadow-md'>
                 <CardHeader>
                   <h2 className='text-base font-medium text-[#666666]'>THIS MONTH</h2>
-                  <CardTitle>Culture Vital signs</CardTitle>
+                  <CardTitle className='text-3xl'>Culture Vital signs</CardTitle>
                 </CardHeader>
                 <CardContent className='flex flex-wrap justify-between'>
                   <div className='m-1 rounded-lg w-[200px] h-[240px] bg-[#FAFAFA] p-2'>
@@ -73,8 +74,50 @@ function App() {
               </Card>
             </div>
             <div className='mx-1 md:mx-20 mt-5 flex flex-grow'>
-              <Card className='p-2 mt-2 mx-1 lg:w-[50%]'></Card>
-              <Card className='p-2 mt-2 mx-1 lg:w-[50%]'  ></Card>
+              <Card className='p-2 mt-2 mx-1 lg:w-[50%] shadow-md'>
+                <CardHeader>
+                  <div className='rounded-lg  bg-gray-900 w-[50px] h-[50px] flex justify-center items-center shadow-md mb-2'>
+                    <img src={InstillIcon} />
+                  </div>
+                  <CardTitle className='mt-4'>Instill Sense</CardTitle>
+                </CardHeader>
+                <CardContent className='flex flex-wrap'>
+                  <div className='border border-gray-300 m-1 rounded-lg w-[600px] h-[100px] p-2 flex flex-wrap justify-between'>
+                    <div className='w-[200px] flex flex-col justify-center p-3'>
+                      <h3 className='font-medium'>Upcoming Meetings</h3>
+                      <h1 className='text-4xl font-bold'>12</h1>
+                    </div>
+                    <div className='w-[200px] flex flex-col justify-center p-3'>
+                      <h3 className='font-medium'>New Summaries</h3>
+                      <h1 className='text-4xl font-bold'>03</h1>
+                    </div>
+                  </div>
+                  <div className='border border-gray-300 m-1 rounded-lg w-[600px] h-[200px] p-2'>
+                    <h3 className='font-medium p-3'>Meetings Sentiments</h3>
+                    <div className='flex flex-wrap justify-around'>
+                      <div className='m-1 w-[100px] h-[100px] p-2'>
+                        <div className='my-1 w-[90px] flex flex-col justify-center items-center'>
+                          <CircularPercentage percentage={25} color='red' />
+                          <h3 >Positive</h3>
+                        </div>
+                      </div>
+                      <div className='m-1 w-[100px] h-[100px] p-2'>
+                        <div className='my-1 w-[90px] flex flex-col justify-center items-center'>
+                          <CircularPercentage percentage={25} color='yellow'/>
+                          <h3 >Neutral</h3>
+                        </div>
+                      </div>
+                      <div className='m-1 w-[100px] h-[100px] p-2'>
+                        <div className='my-1 w-[90px] flex flex-col justify-center items-center'>
+                          <CircularPercentage percentage={25} color='green'/>
+                          <h3 >Negative</h3>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </CardContent>
+              </Card>
+              <Card className='p-2 mt-2 mx-1 lg:w-[50%] shadow-md'></Card>
             </div>
           </div>
         </div>
