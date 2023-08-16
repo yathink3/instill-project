@@ -91,7 +91,7 @@ function MainPage() {
               <div className='flex flex-wrap justify-around'>
                 <div className='m-1 w-[100px] h-[100px] p-2'>
                   <div className='my-1 w-[90px] flex flex-col justify-center items-center'>
-                    <CircularPercentage percentage={62} color='red' />
+                    <CircularPercentage percentage={62} color='green' />
                     <h3>Positive</h3>
                   </div>
                 </div>
@@ -103,7 +103,7 @@ function MainPage() {
                 </div>
                 <div className='m-1 w-[100px] h-[100px] p-2'>
                   <div className='my-1 w-[90px] flex flex-col justify-center items-center'>
-                    <CircularPercentage percentage={'08'} color='green' />
+                    <CircularPercentage percentage={'08'} color='red' />
                     <h3>Negative</h3>
                   </div>
                 </div>
