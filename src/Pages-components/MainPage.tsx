@@ -68,7 +68,7 @@ function MainPage() {
         </Card>
       </div>
       <div className='mx-1 md:mx-20 mt-5 flex flex-col lg:flex-row'>
-        <Card className='p-2 mt-2 mx-1 lg:w-[50%] shadow-md'>
+        <Card className='p-2 mt-2 mx-1 lg:w-1/2 shadow-md'>
           <CardHeader>
             <div className='rounded-lg  bg-gray-900 w-[50px] h-[50px] flex justify-center items-center shadow-md mb-2'>
               <img src={InstillIcon} />
@@ -111,7 +111,7 @@ function MainPage() {
             </div>
           </CardContent>
         </Card>
-        <Card className='p-2 mt-2 mx-1 lg:w-[50%] shadow-md'>
+        <Card className='p-2 mt-2 mx-1 lg:w-1/2 shadow-md'>
           <CardHeader>
             <h2 className='text-base font-medium text-[#666666]'>THIS MONTH</h2>
             <CardTitle className='text-3xl'>Pulse Survey</CardTitle>
