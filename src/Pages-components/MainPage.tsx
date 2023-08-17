@@ -153,7 +153,7 @@ function MainPage() {
                   </div>
                 </div>
               </div>
-              <div className='border border-gray-300 m-1 rounded-lg md:w-[48%] flex flex-col justify-center p-2'>
+              <div className='border border-gray-300 m-1 rounded-lg md:w-[48%] flex flex-col justify-center p-2 bg-light-red'>
                 <h3 className='font-medium p-2'>Performance Feedback</h3>
                 <div className='m-1 md:w-[250px] md:h-[100px] p-2 pt-0'>
                   <div className='my-1 md:w-[180px] flex flex-col justify-center items-center'>
