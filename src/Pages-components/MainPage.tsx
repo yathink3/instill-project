@@ -67,7 +67,7 @@ function MainPage() {
           </CardContent>
         </Card>
       </div>
-      <div className='mx-1 md:mx-20 mt-5 flex flex-col lg:flex-row'>
+      <div className='mx-1 md:mx-20 mt-5 flex flex-col lg:flex-row justify-between'>
         <Card className='p-2 mt-2 mx-1 lg:w-[49%] shadow-md'>
           <CardHeader>
             <div className='rounded-lg  bg-gray-900 w-[50px] h-[50px] flex justify-center items-center shadow-md mb-2'>
