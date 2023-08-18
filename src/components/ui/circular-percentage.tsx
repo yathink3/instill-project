@@ -30,10 +30,10 @@ function CircularPercentage({ percentage = 0, color = undefined }: CircularPerce
           a 15.9155 15.9155 0 0 1 0 31.831
           a 15.9155 15.9155 0 0 1 0 -31.831'
       />
-      <text x='15' y='20.35' className='percentage font-bold fill-[#333] block text-center'>
+      <text x='17' y='22' className='percentage font-bold fill-[#333] block text-center'>
         {percentage}
       </text>
-      <text x='24' y='20.35' className='percentage-symbol fill-[#333] block text-center'>
+      <text x='26' y='22' className='percentage-symbol fill-[#333] block text-center'>
         %
       </text>
     </svg>
